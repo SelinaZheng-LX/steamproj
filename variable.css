@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@600&family=Fira+Sans+Condensed:wght@300;400;500&display=swap");
+/* variables */
+:root {
+    /* colors */
+    --primary-bg: #191919;
+    --secondary-bg: #ebe5d8;
+    --primary-color: #ffecca;
+    /* --secondary-color: #ffba4c;
+    --tert-color: #f07e53;
+    --quad-color: #878e91; */
+    --white: #fff;
+    --black: #000;
+    /* font families */
+    --font-assist: "Assistant", sans-serif;
+    --font-fira: "Fira Sans Condensed", sans-serif;
+    /* font sizes */
+    --h1: 5em;
+    --h2: 3em;
+    --h3: 1.5em;
+    --text: 1.125em;
+    --small-text: 0.9em;
+    --mini-text: 0.8em;
+}
