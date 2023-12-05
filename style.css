@@ -116,4 +116,12 @@ body {
     margin: 1.5rem;
     width: 30%;
     border-radius: 1rem;
+    position: relative;
+}
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+.button:hover a {
+    color: var(--black);
 }
