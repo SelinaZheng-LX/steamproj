@@ -4,19 +4,19 @@ function card(album, descript, image) {
     this.image = image;
 }
 const deck = [
-    new card("Card 1", "", "card1"),
-    new card("Card 2", "", "card2"),
-    new card("Card 3", "", "card3"),
-    new card("Card 4", "", "card4"),
-    new card("Card 5", "", "card5"),
-    new card("Card 6", "", "card6"),
-    new card("Card 7", "", "card7"),
-    new card("Card 8", "", "card8"),
-    new card("Card 9", "", "card9"),
-    new card("Card 10", "", "card10"),
-    new card("Card 11", "", "card11"),
-    new card("Card 12", "", "card12"),
-    new card("Card 13", "", "card13"),
+    new card("Ranked 1", "", "card1"),
+    new card("Ranked 2", "", "card2"),
+    new card("Ranked 3", "", "card3"),
+    new card("Ranked 4", "", "card4"),
+    new card("Ranked 5", "", "card5"),
+    new card("Ranked 6", "", "card6"),
+    new card("Ranked 7", "", "card7"),
+    new card("Ranked 8", "", "card8"),
+    new card("Ranked 9", "", "card9"),
+    new card("Ranked 10", "", "card10"),
+    new card("Ranked 11", "", "card11"),
+    new card("Ranked 12", "", "card12"),
+    new card("Ranked 13", "", "card13"),
 ];
 function random(num) {
     let randomNum = Math.floor(Math.random() * num);
@@ -26,10 +26,10 @@ document.getElementById("draw").onclick = function () {
     let index = random(13);
     const currentCard = deck[index];
     document.getElementById("display").innerHTML =
-        '<img src="media/' +
+        '<img class="wide-img bigger-wide-img" src="media/' +
         currentCard.image +
-        '.png"/><h3>' +
-        currentCard.name +
+        '.png"/><h3 class="title-caption">' +
+        currentCard.album +
         "</h3><p>" +
         currentCard.descript +
         "</p>";
