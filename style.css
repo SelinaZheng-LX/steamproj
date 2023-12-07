@@ -76,6 +76,13 @@ body {
     margin: 0;
     text-transform: uppercase;
 }
+.caption {
+    text-transform: capitalize;
+    color: var(--white);
+    font-size: var(--h3);
+    font-family: var(--font-assist);
+    margin: 0;
+}
 .description {
     color: var(--white);
     font-size: var(--text);
